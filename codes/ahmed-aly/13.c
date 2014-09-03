@@ -1,0 +1,62 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int n,hold,hold1,temp,n1;
+	scanf("%d",&n);
+	if(n<0)
+	{
+		hold=-n;
+		hold/=10;
+		temp=-n;
+		temp%=10;
+		hold1=-n;
+		hold1/=10;
+		hold1/=10;
+		hold1*=10;
+		hold1+=temp;
+
+		hold*=-1;
+		hold1*=-1;
+
+		if(hold>hold1)
+		{
+			if(hold>n)
+				printf("%d\n",hold);
+			else
+				printf("%d\n",n);
+		}
+		else
+		{
+			if(hold1>n)
+				printf("%d\n",hold1);
+			else
+				printf("%d\n",n);
+		}
+	}
+	else
+	{
+		hold=n;
+		hold/=10;
+		temp%=10;
+		hold1/=10;
+		hold1/=10;
+		hold1*=10;
+		hold1=hold1+temp;
+		if(hold>hold1)
+		{
+			if(hold>n)
+				printf("%d\n",hold);
+			else
+				printf("%d\n",n);
+		}
+		else
+		{
+			if(hold1>n)
+				printf("%d\n",hold1);
+			else
+				printf("%d\n",n);
+		}
+	}
+	return 0;
+}

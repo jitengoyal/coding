@@ -1,0 +1,3 @@
+next greater ele stack
+maximum biotonic array left non-decreasing and right non increasing
+arr[j]-arr[i] && j-i max use left min arr and right max array

@@ -1,0 +1,17 @@
+\contentsline {paragraph}{}{1}{section*.1}
+\contentsline {paragraph}{}{1}{section*.2}
+\contentsline {section}{\numberline {1}Typesetting text}{3}{section.1}
+\contentsline {paragraph}{}{3}{section*.4}
+\contentsline {paragraph}{}{3}{section*.5}
+\contentsline {paragraph}{}{3}{section*.6}
+\contentsline {section}{\numberline {2}Mathematics}{3}{section.2}
+\contentsline {paragraph}{}{4}{section*.7}
+\contentsline {section}{\numberline {3}Floats}{5}{section.3}
+\contentsline {paragraph}{}{5}{section*.8}
+\contentsline {subsection}{\numberline {3.1}Tables}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Figures}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Listings}{6}{section.4}
+\contentsline {section}{\numberline {5}Macros}{7}{section.5}
+\contentsline {paragraph}{}{7}{section*.9}
+\contentsline {subsection}{\numberline {5.1}Macros that take arguments}{7}{subsection.5.1}
+\contentsline {section}{References}{8}{section*.10}

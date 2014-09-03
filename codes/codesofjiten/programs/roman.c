@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char c1[1000],c2[1000],c3[1000];
+	scanf("%s",&c1);
+	scanf("%s",&c2);
+	int i,l1,l2;
+	l1=strlen(c1);
+	l2=strlen(c2);
+	for(i=0;i<l1;i++)
+	{
+		c3[i]=c1[i];
+	}
+	for(i=0;i<l2;i++)
+	{
+		c3[l1+i]=c2[i];
+	}
+//	printf("%s\n",c3);
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='M')
+			printf("M");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='D')
+			printf("D");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='C')
+			printf("C");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='L')
+			printf("L");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='X')
+			printf("X");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='V')
+			printf("V");
+	}
+	for(i=0;i<l1+l2;i++)
+	{
+		if(c3[i]=='I')
+			printf("I");
+	}
+}
